@@ -25,6 +25,7 @@ public class Anagram {
 		for(String s: anagram.keySet()){
 			if(anagram.get(s).contains(" ")){
 				//New line added
+        //check
         // this is also a check
 				clusters+=anagram.get(s)+"\n";
         // this is just to check
